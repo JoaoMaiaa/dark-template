@@ -1,0 +1,82 @@
+/*Greneral*/
+:root{
+    --dark:#1c1c1c;
+    --light:#ffffff;
+    --light-grey:#efefef;
+    --dark-grey:#333333;
+    --dark-2:#343a40;
+}
+
+body{
+    font-family:'Oswald', sans-serif;
+    font-size:1rem;
+    letter-spacing: .05rem;
+    font-weight:200;
+}
+
+.lead{font-size:1.8rem;}
+.bg-dark{background-color:var(--dark)!important;}
+.btn-dark{background-color:var(--dark)!important;}
+.btn-secondary{background-color:var(--dark-grey)!important;}
+.btn-content{padding:1.2rem 1.5rem!important;}
+.bg-grey{background-color:var(--dark-grey)!important;}
+.btn-dark:hover{background-color:var(--dark)!important}
+.btn-secondary:hover{background-color:var(--dark-grey)!important;}
+
+/*Navbar*/
+.navbar{
+    min-height:80px;
+    position:absolute;
+    z-index:1000;
+    background:transparent;
+    left:0;
+    top:0;
+    right:0;
+}
+
+.text-dark{color:var(--dark)!important;}
+
+/*Header*/
+.content{
+    background:url('../img/hero.jpg');
+    height:700px;
+    background-size:cover;
+    background-position:center;
+}
+
+.content-info{bottom:20px;}
+
+.small{
+    position:absolute;
+    bottom:25px;
+}
+/*section*/
+a:hover{
+    opacity:.9;
+}
+
+/*footer*/
+footer .btn{
+    font-size:1rem;
+    padding:1rem 1.4rem;
+}
+
+.modal li{
+    font-size:3rem;
+}
+
+.social-media li{
+    font-size:2rem;
+}
+
+/*Breakpoints*/
+@media (max-width: 991.98px) {
+    .navbar {
+        position:relative;
+    }
+
+    .display-2{
+        font-size:4rem;
+        /* padding:2rem; */
+    }
+}
